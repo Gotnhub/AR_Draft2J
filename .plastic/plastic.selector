@@ -1,0 +1,4 @@
+repository "AR-Draft@wechat_os_qy04e-vcqxitvuxpadcbahvq0@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
