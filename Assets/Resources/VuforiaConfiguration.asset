@@ -13,28 +13,28 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AakcYfn/////AAABmZMVJROrT03kqKfMKr713VSKKbMvzKVKz6T5MksP15b4Cbf2EUisc1Ke56TrC6LSiE+AX/xhueP0q/6cV6xLRKISRAoweYCqrHDv6x//gkxFxZuOJGBHU9TGcZp6NZMGmuq4NfWZCkXVlpy5UQvveayqm9A0wIZsKCS7tGCK44J4DNQqqQQdRxAuyu3jcStc0dRiCx5nhyWgBljhc0SKLFOVhzPD8bNCENrY1SaZ5bc2gf1b3yc9jZzbPRHTeN33/UdyiiJcH/wU05chEcAdudFO++vifD1KYD+Kq+QoRLuF+ijiL0WNznPF1fd6HtCbkBn3viatP/6FCNT+IT9JXMzdacybr1vGIAq4wJQ0Qq+Q
-    ufoLicenseKey: QVh0clc2SC8vLy8vQUFBQUtPTUR4RFlCdUU0U2xuNHY2dVYrNkRFNGs0aG5mbDI2T3hrY09DalJHTkp0djBKUHA2UHlGRUFFS2p2N1RCY1Zwc2Vja0JYQ1NYSmMxRVR4YnIvRnpUSVRha3hOTHluNUZIUzBXcEkwWUxKMFIvcjhWSWxIbGpqeXFrakV1Ylo1OEQ1ckdOa0ptVDZWOCs1cVVvZmJUTXc2K050WWVBMnJheksycmM3cmZFRE82bFF6L1JJMkNDL2hLN1d2dFYvdkRXdFcwVEVkZHZvby9zUmYyRzlMVEJPOWNyM3JMZ0FMN1ZSK3NhWDRtaFFIRnRaWnEzQlBRMHJpd2g3RUExTlBjSVZqcWJEekNIK0d1WlRHc2ljTUVJOUh0V3k4MjhVYXlUWXBvVHpQSEJzNWU3bk9zZ2Q0aXZvT2x6YUNZamFTT1BjQmMyUDU2MHA5NlQvNkttczJkL1dycFFYYmltTlFoNjhHR1grMll3SWI=
+    vuforiaLicenseKey: AcvCSxD/////AAABmcDnK6NSsUxsqNq+3wlNnbA3+EiSs5SEctl/evS8JtGYAh1ZW4CPfMRW6jRBjR5j1rfcEHTgKPnJeKKMFG4N62l2vGaVBQ0U/lqRW2mJfimMZZ1JVYSFOOrQHmIYb4d9gHeccynFTAQTUw6+4q5LJoUpz/83ybDBviyV7rpVUrehLZ+7TZXuSsCmFGj390APk73zJYlmlnlJz+NZSShcdOlog85G1LkHIBRZmghWAC2QkDmzRgC3o+MXO4vIIWq5mjBXrQpiOwynj9fS3RXlW6ha7MrTh/qjctCps4DgeJYFApZB25BjbPlISRhTLPgbZGkbt0YfuI+sF3JXElAF5YbhD2phEwrgoJ6Pq5TScCSz
+    ufoLicenseKey: QVlhdTJ4ai8vLy8vQUFBQUtMTkNEQzdaRGt6b24rNUkxaUJhWUVwa1loQWRZR204OGZyd0k4bGk5R3B5WEtPMXJwS21uNHlaMFg0RWVNUytvQ0wweWtNSk5oM3hnbG8vRUdDZU9kS2VOM3N1WHdWOW5MZ3JyYU5pc3A2clpsYXMvSFN6Rzh2ZjdxUCtvbG5BTzRDNnV3L3pGcVpTbndlT21jWG5wL1pRZzdGK1RLcGRQSWlGYmYwWjZ1NzlSbXI4MTR3dDZsZDB6UXpBaTVsWUNjUTBkMkZZVXdXWHQ4RDRqdUkzbHE1Wm9KbVBzWTg1SE1nZWJoMjVHT0N1cGc0TkFnNUVERXE5aHd3S202MS9kR2xzSTJSK0VIL003YXcxZEttVm43emViZWJjUEhBWXlMMklBLytGTllITCtkcndFVy9wQkdZd2FLNDVYTjBmNEdzdkhrNWxINnNzUEJwWGVyLzMyYkVFam94VUZGT2VqQ1BNWXBkZTdYZ1o=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
+    maxSimultaneousImageTargets: 1
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
-    shareRecordingsInITunes: 1
+    shareRecordingsInITunes: 0
     logLevel: 0
     version: 10.18.4
-    eulaAcceptedVersions: '{"Values":["","0.0","10.18"]}'
+    eulaAcceptedVersions: '{"Values":["0.0","10.17","10.18"]}'
   database:
-    disableModelExtraction: 1
+    disableModelExtraction: 0
   shaders:
-    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
-    outlineShader: {fileID: 4800000, guid: c1ded68d068051d4f92650fcddaae5c7, type: 3}
+    depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
+    outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
     unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
       type: 0}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded,
       type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
@@ -44,7 +44,7 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mRecordingPath: Assets/SamplesResources/Recordings/area_target.mp4
+    mRecordingPath: 
     playModeType: 0
   webcam:
     renderTextureLayer: 30
