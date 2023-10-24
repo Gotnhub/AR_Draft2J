@@ -10,13 +10,15 @@ public class ARFrontGate : MonoBehaviour
 
     public GameObject panelVideo;
     public GameObject buttonVideo;
+    Vector3 originalPositionVideo;
 
     public bool isPlayingVideo = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        CloseVideo();
+        originalPositionVideo = panelVideo.transform.position;
+        panelVideo.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,8 +51,8 @@ public class ARFrontGate : MonoBehaviour
         panelVideo.transform.position = buttonVideo.transform.position;
 
         //Animation
-        panelVideo.transform.DOLocalMove(new Vector3(350, 160, 0), 1);
-        panelVideo.transform.DOScale(1, 1);
+        panelVideo.transform.DOMove(originalPositionVideo, 0.5f);
+        panelVideo.transform.DOScale(1, 0.5f);
     }
 
     public void CloseVideo()
@@ -59,12 +61,12 @@ public class ARFrontGate : MonoBehaviour
         //panelVideo.transform.DOScale(1, 0);
 
         //Callback
-        panelVideo.transform.DOScale(0, 1).OnComplete(
+        panelVideo.transform.DOScale(0, 0.5f).OnComplete(
             () => {
             panelVideo.SetActive(false);
             }
         );
-        panelVideo.transform.DOMove(buttonVideo.transform.position, 1);
+        panelVideo.transform.DOMove(buttonVideo.transform.position, 0.5f);
     }
     
 
