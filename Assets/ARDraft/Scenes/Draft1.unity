@@ -929,6 +929,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1279567508923857143, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279567508923857143, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890012302448189852, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 99425465511c345eab590ce09b83d02c,
+        type: 3}
     - target: {fileID: 2048508503316821398, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1118,6 +1134,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943825848230465216, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_text
+      value: 'PuYang
+
+        Instituate of Technology'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943825848230465216, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -32.125946
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943825848230465216, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_margin.y
+      value: -22.488281
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943825848230465216, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -359.81085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943825848230465216, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 6829145109696053569, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
         type: 3}
@@ -1314,11 +1357,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9038180789296732709, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208497978323312736, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_text
+      value: 'PuYang
+
+        Instituate of Technology'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208497978323312736, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -398.36194
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208497978323312736, guid: 2f537ed59c60c4cf28b95eb4e6d4e341,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 5422752651792787266, guid: 2f537ed59c60c4cf28b95eb4e6d4e341, type: 3}
     - {fileID: 8696580263330687920, guid: 2f537ed59c60c4cf28b95eb4e6d4e341, type: 3}
     - {fileID: 2048508503316821399, guid: 2f537ed59c60c4cf28b95eb4e6d4e341, type: 3}
+    - {fileID: 4949670657918525710, guid: 2f537ed59c60c4cf28b95eb4e6d4e341, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f537ed59c60c4cf28b95eb4e6d4e341, type: 3}
@@ -2264,7 +2330,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734813008}
-  - component: {fileID: 734813009}
   m_Layer: 0
   m_Name: Bot
   m_TagString: Untagged
@@ -2287,37 +2352,11 @@ RectTransform:
   - {fileID: 224066003249790483}
   m_Father: {fileID: 1908447234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -875}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &734813009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734813007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: -350
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 3
-  m_Spacing: 100
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
 --- !u!1 &778266740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,8 +3305,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 582.49, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 957.695, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888121984
 MonoBehaviour:
@@ -6412,7 +6451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1926522191}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Views
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8263,12 +8302,12 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: 25
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildAlignment: 3
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -8817,7 +8856,7 @@ RectTransform:
   m_Father: {fileID: 734813008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8881,7 +8920,7 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 75}
-  m_Pivot: {x: 0.5, y: 1}
+  m_Pivot: {x: 0, y: 1}
 --- !u!224 &224272561297966649
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9065,8 +9104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 69.005, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 133.32, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224579318986708301
 RectTransform:
@@ -12033,8 +12072,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 228.535, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 396.48, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5622151032907023573
 RectTransform:
@@ -17578,8 +17617,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 409.28, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 680.855, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8961918629308139980
 GameObject:
